@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/arthur26anos" />
 
     <TextView
-        android:id="@+id/nomeidade2"
+        android:id="@+id/nome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="125dp"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/nomeidade"
+        android:id="@+id/idade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/andada"
@@ -39,5 +39,5 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/fotoarthur"
-        app:layout_constraintTop_toBottomOf="@+id/nomeidade2" />
+        app:layout_constraintTop_toBottomOf="@+id/nome" />
 </androidx.constraintlayout.widget.ConstraintLayout>
